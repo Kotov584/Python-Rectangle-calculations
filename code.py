@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Feb 19 17:03:14 2022
-
-@author: kotov584
-"""
-
-
 class Rectangle(): 
     def __init__(self, length, width):
         self.length = length
