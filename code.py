@@ -11,6 +11,7 @@ class Rectangle():
     
     def vertical_orientation(self) -> bool: 
         return self.width > self.length
+
     
 if __name__ == "__main__": 
     rectangle = Rectangle(123, 123)
