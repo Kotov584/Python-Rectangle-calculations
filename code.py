@@ -8,11 +8,8 @@ Created on Sat Feb 19 17:03:14 2022
 
 class Rectangle(): 
     def __init__(self, length, width):
-        if float(length > 0) and float(width > 0): 
-            self.length = length
-            self.width  = width
-        else:
-            return False
+        self.length = length
+        self.width  = width 
         
     def get_area(self):
         return self.width * self.length
@@ -20,10 +17,8 @@ class Rectangle():
     def get_perimeter(self):
         return 2 * (self.width + self.length)
     
-    def vertical_orientation(self): 
-        if self.width > self.length :
-            return True
-        return False 
+    def vertical_orientation(self) -> bool: 
+        return self.width > self.length
     
 if __name__ == "__main__": 
     rectangle = Rectangle(123, 123)
