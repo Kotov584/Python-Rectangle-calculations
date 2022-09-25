@@ -15,6 +15,7 @@ class Rectangle():
     
 if __name__ == "__main__": 
     rectangle = Rectangle(123, 123)
+    
     print(rectangle.get_area()) 
     
     
